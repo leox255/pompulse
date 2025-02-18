@@ -1,11 +1,11 @@
 {
   "name": "pompulse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A beautiful Pomodoro timer for your terminal",
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "pp": "./src/index.js"
+    "pp": "src/index.js"
   },
   "scripts": {
     "start": "node src/index.js",
@@ -34,5 +34,10 @@
   },
   "files": [
     "src/**/*"
-  ]
+  ],
+  "homepage": "https://github.com/yourusername/pompulse",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/pompulse.git"
+  }
 }
