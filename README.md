@@ -24,7 +24,7 @@ Or, if you want to install from source:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/pompulse.git
+git clone https://github.com/leox255/pompulse.git
 cd pompulse
 ```
 
