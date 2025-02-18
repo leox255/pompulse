@@ -1,0 +1,38 @@
+{
+  "name": "pompulse",
+  "version": "1.0.0",
+  "description": "A beautiful Pomodoro timer for your terminal",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "pp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "postinstall": "chmod +x ./src/index.js"
+  },
+  "keywords": [
+    "pomodoro",
+    "timer",
+    "productivity",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "conf": "^11.0.1",
+    "figlet": "^1.6.0",
+    "ora": "^7.0.1",
+    "play-sound": "^1.1.5",
+    "single-line-log": "^1.1.2"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "src/**/*"
+  ]
+}
